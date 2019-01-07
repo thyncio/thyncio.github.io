@@ -112,7 +112,7 @@
     margin-top: 5px;
 }
 .blog-card .description .read-more {
-    text-align: right;
+    text-align: left;
 }
 .blog-card .description .read-more a {
     color: #5ad67d;
@@ -166,7 +166,7 @@
         -webkit-transform: skewX(-3deg);
         transform: skewX(-3deg);
         content: "";
-        background: #fff;
+        background: #d7d7d7;
         width: 30px;
         position: absolute;
         left: -10px;
