@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-    <title>Dung LT | Books</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <title>Dung LT | Stories</title>
     <link rel="stylesheet" href="../../../css/categories.css">
     <script src="../../../js/modernizr.js"></script>
+    <link rel="stylesheet" href="../../../css/stories.css">
 </head>
 <body>
 <header>
+    <!--<div id="cd-logo"><a href="#0"><img src="../../../img/cd-logo.svg" alt="Logo"></a></div>-->
     <p style="padding-bottom: 5px; font-size: 42px"><strong>thync.im</strong></p>
     <span style="color: #2c3e51">Books</span>
 </header>
 
-<div id="cd-nav">
-    <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+<div id="cd-nav" >
+    <a href="#0" class="cd-nav-trigger" style="z-index: 2000000001">Menu<span></span></a>
     <nav id="cd-main-nav">
-        <ul>
+        <ul style="z-index: 2000000000">
             <li><a href="/">Home</a></li>
             <li><a href="/views/categories/books">Books</a></li>
             <li><a href="/views/categories/photos">Photos</a></li>
@@ -27,55 +30,57 @@
 </div>
 
 <main>
-    <ul id="cd-gallery-items" class="cd-container">
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-
-        <li>
-            <img src="../../../img/thumb.jpg" alt="Preview image">
-        </li>
-    </ul>
+    <div class="content" style="margin: 1em">
+        <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(2018-12/img/di-qua-hoa-cuc.jpg)"></div>
+                <ul class="details">
+                    <li class="author"><a href="#">Thync</a></li>
+                    <li class="date">25. 12, 2018</li>
+                    <li class="tags">
+                        <ul>
+                            <li><a href="#">Nguyễn Nhật Ánh</a></li>
+                            <li><a href="#">Truyện dài</a></li>
+                            <li><a href="#">Sách</a></li>
+                            <!--<li><a href="#">CSS</a></li>-->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="description">
+                <h1>Đi qua hoa cúc</h1>
+                <!--<h2>Opening a door to the future</h2>-->
+                <p> Cuốn Đi Qua Hoa Cúc là tập truyện dài của Nguyễn Nhật Ánh, mở đầu câu truyện tác giả kể lại tuổi ấu thơ hồn nhiên của nhân vật trong truyện, kết hợp với tả cảnh ở miền quê, những ngôi nhà nằm dọc hai bên đường đá sỏi dọc theo hai bên hàng dâm bụt và cả cây sứ cây bàng tỏa bóng mát, tỏa hương thơm trước sân nhà. </p>
+                <p class="read-more">
+                    <a href="2018-12/di-qua-hoa-cuc.html">Read More</a>
+                </p>
+            </div>
+        </div>
+        <!--<div class="blog-card alt">-->
+            <!--<div class="meta">-->
+                <!--<div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>-->
+                <!--<ul class="details">-->
+                    <!--<li class="author"><a href="#">Jane Doe</a></li>-->
+                    <!--<li class="date">July. 15, 2015</li>-->
+                    <!--<li class="tags">-->
+                        <!--<ul>-->
+                            <!--<li><a href="#">Learn</a></li>-->
+                            <!--<li><a href="#">Code</a></li>-->
+                            <!--<li><a href="#">JavaScript</a></li>-->
+                        <!--</ul>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="description">-->
+                <!--<h1>Mastering the Language</h1>-->
+                <!--<h2>Java is not the same as JavaScript</h2>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>-->
+                <!--<p class="read-more">-->
+                    <!--<a href="#">Read More</a>-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
 </main>
 <script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
